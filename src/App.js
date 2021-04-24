@@ -1,11 +1,9 @@
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-			<h1>Hello World</h1>
-    </div>
-  );
+import Calc from './components/Calc';
+const App = () => {
+	return (
+		<div className = 'root'>
+			<Calc />
+		</div> 
+	)
 }
-
-export default App;
+export default App
