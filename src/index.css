@@ -11,23 +11,15 @@ body {
 }
 
 form { 
-	margin-right: auto; 
-	margin-left: auto; 
-	max-width: 200px; 
+	margin: 0 10px 5px 0;
+	/* width: 25%; */
+	/* max-width: 100px; */
 }
 
 .root {
-	display: flex;
-	flex-direction: column;
-	flex-flow: column wrap;
-	align-items: center; 
+	display: inline-flex;
+	/* white-space: nowrap; */
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-	/* overflow: auto; */
-}
+
 

@@ -20,6 +20,7 @@ export default class Calc extends React.Component {
 	render() {
 		return (
 			<form onSubmit={this.handleSubmit}> 
+				Please select what best describes your daily diet:<br></br>
 				<select value={this.state.diet}>
 					<option>Meat Lover</option> 
 					<option>Average</option> 
@@ -27,16 +28,19 @@ export default class Calc extends React.Component {
 					<option>Vegitarian</option> 
 					<option>Vegan</option> 
 				</select>
+				<br></br>
 				<input 
 					name="input1"
 					value={this.state.input1} 
 					onChange = {this.handleChange}
 				/>
+				<br></br>
 				<input 
 					name="input2"
 					value={this.state.input2} 
 					onChange={this.handleChange}
 				/>
+				<br></br> 
 				<button type="submit"> 
 					submit 
 				</button> 
