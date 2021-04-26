@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React from "react"
 import Output from "./Output"
 
 const initialState = {
@@ -27,7 +27,7 @@ export default class Calc extends React.Component {
 			this.setState({[event.target.name]: event.target.value});
 		}
 		else{
-			this.state = initialState;
+			this.state.setState(initialState);
 			alert("input error, please try again");
 			window.location.reload();
 		}

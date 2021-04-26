@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Calc from './components/Calc';
 // import Output from './components/Output';
 const App = () => {
