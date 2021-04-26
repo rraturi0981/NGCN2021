@@ -45,7 +45,7 @@ export default class Calc extends React.Component {
 
 	render() {
 		return (
-			<div> 
+			<div className = "holder"> 
 				{this.state.submit ? <Output input={this.state}/> : 
 						(
 							<form onSubmit={this.handleSubmit}> 
