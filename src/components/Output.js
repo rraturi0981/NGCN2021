@@ -8,10 +8,10 @@ const inputToNum = {
 	"No Beef": 1.9, 
 	"Vegitarian": 1.7, 
 	"Vegan": 1.5, 
-	"Car": 0.000404, 
+	"car": 0.000404, 
 	"Bus": 0.000822, 
 	"Bike":  0.00014, 
-	"Walking":  0.00011, 
+	"walk":  0.00011, 
 }
 
 const Output = ({input}) => {

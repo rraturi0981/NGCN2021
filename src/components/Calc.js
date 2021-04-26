@@ -49,7 +49,7 @@ export default class Calc extends React.Component {
 				{this.state.submit ? <Output input={this.state}/> : 
 						(
 							<form onSubmit={this.handleSubmit}> 
-								Does you recylce?	
+								Do you recylce?	
 								<select 
 								name = "recycle"
 								value = {this.state.recycle}
@@ -84,7 +84,6 @@ export default class Calc extends React.Component {
 										<option>car</option>
 										<option>bus</option>
 										<option>bike</option>
-										<option>subway/metro</option>
 										<option>walk</option>
 								</select>
 								How far do you usually travel in a year? (in km)?
