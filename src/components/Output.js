@@ -22,6 +22,9 @@ const Output = ({input}) => {
 					  <h2>{inputToNum[input.recycle] + (13.9795*parseFloat(input.numRooms)) + inputToNum[input.diet] + (inputToNum[input.transportation]*parseFloat(input.miles)) + (0.00025*parseFloat(input.short_flights)) + (0.00014 * parseFloat(input.medium_flights)) + (0.00017*parseFloat(input.long_flights))} metric tons of CO2 per year</h2> 
 					{/* <h1>{input.miles}</h1> */}
 					<button onClick={refreshPage}>Re Do</button>
+					<footer> 
+						<a href="https://www.conservation.org/carbon-footprint-calculator#/">Click Here For Source/Inspiration</a>
+					</footer>
 				</div>
 		)
 }
