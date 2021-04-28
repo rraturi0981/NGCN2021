@@ -5,7 +5,7 @@ const initialState = {
 		recycle: "Yes",
 		numRooms: "",
 		diet: "Meat Lover", 
-		transportation: "Car",
+		transportation: "car",
 		miles: "", 
 		long_flights: "", 
 		short_flights: "", 
